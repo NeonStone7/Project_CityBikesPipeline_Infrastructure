@@ -1,0 +1,34 @@
+{
+  "vpc-provider:account=676206924820:filter.isDefault=true:region=eu-west-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0b36b518af9c63a11",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "676206924820",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-047ce6dde68bc8f56",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "eu-west-1a",
+            "routeTableId": "rtb-05be6daca17abe030"
+          },
+          {
+            "subnetId": "subnet-0cbf09bbc4108effe",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "eu-west-1b",
+            "routeTableId": "rtb-05be6daca17abe030"
+          },
+          {
+            "subnetId": "subnet-08493fe357f78dc96",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "eu-west-1c",
+            "routeTableId": "rtb-05be6daca17abe030"
+          }
+        ]
+      }
+    ]
+  }
+}

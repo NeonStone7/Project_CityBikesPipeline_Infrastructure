@@ -1,7 +1,7 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
 
-from citybikes_infra.citybikes_infra_stack import CitybikesInfraStack
+from citybikes_infra.citybikes_infra.s3_bucket_stack import CitybikesInfraStack
 
 # example tests. To run these tests, uncomment this file along with the example
 # resource in citybikes_infra/citybikes_infra_stack.py
